@@ -7,10 +7,10 @@ public class Main {
     public static void main(String[] args) {
 
         ArrayList<Contact> contacts = new ArrayList<>();
-        contacts.add(new Contact("Serhii", "093"));
-        contacts.add(new Contact("Kate", "050"));
-        contacts.add(new Contact("Stas", "050"));
-        contacts.add(new Contact("Sasha", "093"));
+        contacts.add(new Contact("Serhii", "0931111111"));
+        contacts.add(new Contact("Kate", "0502222222"));
+        contacts.add(new Contact("Stas", "0503333333"));
+        contacts.add(new Contact("Sasha", "0934444444"));
 
 
         List<Contact> list = filter(contacts, contact -> contact.getPhone().contains("3"));
