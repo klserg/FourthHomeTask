@@ -24,4 +24,9 @@ public class Contact {
     public String getPhone() {
         return phone;
     }
+
+    public Contact addCodeToPhone(String code) {
+        this.phone = code + phone;
+        return this;
+    }
 }
